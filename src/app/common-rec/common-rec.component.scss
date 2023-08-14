@@ -1,0 +1,31 @@
+*{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  word-spacing: 2px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  }
+div{
+  margin: 5px 15px;
+
+}
+div.attention{
+  background-color: #C4CCD0;
+  border: 2px inset #2F5868;
+  border-radius: 10px;
+  color: #2F5868;
+  font-weight: bold;
+  font-size: 14px;
+
+  ol{
+    list-style-type: none;
+  }
+
+  li{
+    padding: 5px 1px 5px 15px;
+    margin-bottom: .5rem;
+  }
+}
