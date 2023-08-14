@@ -3,6 +3,7 @@
   font-size: 16px;
   word-spacing: 2px;
 }
+
 h2{
   text-align: center;
   margin-bottom: 10px;
@@ -13,10 +14,10 @@ div{
 
 }
 div.attention{
-  background-color: #C4CCD0;
-  border: 2px inset #2F5868;
-  border-radius: 10px;
-  color: #2F5868;
+  background-color: #fff3cd;
+  border: 2px solid #ffeeba;
+  border-radius: 15px;
+  color: #856404;
   font-weight: bold;
   font-size: 14px;
 
@@ -28,4 +29,8 @@ div.attention{
     padding: 5px 1px 5px 15px;
     margin-bottom: .5rem;
   }
+
+}
+p{
+  text-indent: 10px
 }
