@@ -3,10 +3,13 @@
 </div>
 
 <div class="info">
+
 <div class="app-container">
-  <app-sidebar></app-sidebar>
+  <app-sidebar [isOpen]="sidebarOpen" (toggle)="toggleSidebar()"></app-sidebar>
 </div>
+  <i *ngIf="!sidebarOpen" class=" pi pi-angle-double-right" (click)="toggleSidebar()"></i>
 <div class="content">
+
   <router-outlet ></router-outlet>
 </div>
 </div>

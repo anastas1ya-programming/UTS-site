@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-uts';
+  sidebarOpen: boolean = false;
+  toggleSidebar(){
+    this.sidebarOpen=!this.sidebarOpen;
+  }
 }
