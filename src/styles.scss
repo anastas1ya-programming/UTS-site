@@ -12,6 +12,11 @@
     letter-spacing: 1px;
     word-spacing: 2px;
     margin-left: 1rem;
+    @media (max-width: 400px) {
+      margin-left: 0.05rem;
+      font-size: 12px;
+
+    }
   }
 
   h2{
@@ -117,6 +122,25 @@
 
   .img{
    text-align: center;
+
+  }
+
+  img{
+    @media (max-width: 1000px) {
+
+        width: 400px;
+
+    }
+    @media (max-width: 760px) {
+
+      width: 300px;
+
+    }
+    @media (max-width: 610px) {
+
+      width: 200px;
+
+    }
   }
 
 
