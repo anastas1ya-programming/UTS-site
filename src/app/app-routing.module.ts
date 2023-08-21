@@ -21,7 +21,8 @@ const routes: Routes = [
   {path: 'fifth', component: FifthListComponent},
   {path: 'sixth', component: SixthListComponent},
   {path: 'seventh', component: SeventhListComponent},
-  {path: 'eight', component: EigthListComponent}
+  {path: 'eight', component: EigthListComponent},
+  {path: '**', redirectTo: '/'}
 
 
 
