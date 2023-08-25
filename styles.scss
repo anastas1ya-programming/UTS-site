@@ -35,10 +35,10 @@
 
   }
   div.attention{
-    background-color: #FFF7E5;
+    background-color: #FFB273;
     border: 2px solid transparent;
     border-radius: 15px;
-    color: #A68948;
+    color: #A64B00;
     font-weight: bold;
     font-size: 14px;
 
@@ -59,12 +59,12 @@
   }
 
   div.danger{
-    color: #A65148;
+    color: #A60000;
     font-weight: bold;
     text-align: center;
   }
   div.success{
-    color: #45A059;
+    color: #008500;
     font-weight: bold;
     text-align: center;
   }
@@ -99,8 +99,8 @@
   .example-bad,
   .example-good {
     position: relative;
-    color: #A65148;
-    border: 1px #A65148 solid;
+    color: #A60000;
+    border: 1px #A60000 solid;
     border-radius: 3px;
     width: 35%;
     box-shadow: 4px 4px 4px grey;
@@ -110,8 +110,8 @@
 
   .example-good {
     align-self: flex-end;
-    color: #45A059;
-    border: 1px #45A059 solid;
+    color: #008500;
+    border: 1px #008500 solid;
   }
   table, td, tr{
     border: 1px solid lightslategrey;
