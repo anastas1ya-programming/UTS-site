@@ -80,6 +80,24 @@
   .example p{
     text-indent: 0;
   }
+  .table-cell{
+    border: 1px solid lightgrey;
+    padding: 0.2rem 0.9rem;
+    text-align: center;
+    margin: 0;
+    width: 70%;
+    background: rgb(255, 254, 254);
+
+
+
+
+
+
+  }
+  .table-cell:hover{
+    border: 2px solid darkgreen;
+
+  }
 
   @media (max-width: 760px) {
     .example {
@@ -88,7 +106,10 @@
 
       .example-good, .example-bad {
         align-self:center;
-        width: 70%
+        width: 70%;
+
+
+
 
       }
     }
@@ -99,37 +120,62 @@
   .example-good {
     position: relative;
     color: #A65148;
-    border: 1px #A65148 solid;
+    border: 1px #eddcda solid;
     border-radius: 3px;
     width: 35%;
     box-shadow: 4px 4px 4px grey;
     margin: 0.5rem;
     padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: repeating-linear-gradient(
+    45deg,
+    #eddcda,
+    #eddcda 2px,
+    white 1px,
+    white 10px
+    );
+
+
   }
 
   .example-good {
     align-self: flex-end;
     color: #45A059;
-    border: 1px #45A059 solid;
+    border: 1px #d9ecdd solid;
+
+
+    background: repeating-linear-gradient(
+        45deg,
+        #d9ecdd,
+        #d9ecdd 2px,
+        white 1px,
+        white 10px
+    );
+
   }
+
   table, td, tr{
     border: 1px solid lightslategrey;
     border-collapse: collapse;
     margin: auto;
+    padding: 0.3rem
 
 
 
   }
 
   .img{
-   text-align: center;
+    text-align: center;
 
   }
 
   img{
     @media (max-width: 1000px) {
 
-        width: 400px;
+      width: 400px;
 
     }
     @media (max-width: 760px) {
